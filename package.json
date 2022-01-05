@@ -1,0 +1,53 @@
+{
+  "name": "SimpleChat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@loquiry/vue-record-audio": "^0.4.0",
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/auth-next": "^5.0.0-1640566195.af3e3e1",
+    "@nuxtjs/axios": "^5.13.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "core-js": "^3.15.1",
+    "dotenv": "^10.0.0",
+    "emoji-mart-vue-fast": "^10.2.0",
+    "epic-spinners": "^1.1.0",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "graphql-tag": "^2.12.6",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "magnific-popup": "^1.1.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.4",
+    "nuxt": "^2.13.3",
+    "recorder-js": "^1.0.7",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.0",
+    "underscore": "^1.13.2",
+    "viewerjs": "^1.10.2",
+    "vue-apollo": "^3.1.0",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-socket.io": "^3.0.10",
+    "vue-socket.io-extended": "^4.2.0",
+    "vuetify": "^2.6.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "fibers": "^5.0.0",
+    "sass": "~1.32.6",
+    "sass-loader": "^10.1.1"
+  }
+}

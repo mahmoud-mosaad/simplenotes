@@ -1,0 +1,11 @@
+
+query userNotes($id: ID){
+    author(id: $id) {
+        notes{
+            id
+            title
+            content
+            color
+        }
+    }
+}

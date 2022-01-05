@@ -1,0 +1,13 @@
+query notes{
+    notes{
+        id
+        title
+        content
+        color
+        author{
+            id
+            fullname
+            email
+        }
+    }
+}

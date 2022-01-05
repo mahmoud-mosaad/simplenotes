@@ -1,0 +1,13 @@
+query authors{
+    authors{
+        id
+        fullname
+        email
+        notes{
+            id
+            title
+            content
+            color
+        }
+    }
+}
